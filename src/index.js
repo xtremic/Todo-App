@@ -109,6 +109,9 @@ disabled()
 
    const inputdome = <input type='text' value={input} placeholder='Add a task' onChange={handleI} onKeyDown={handlekeydown} id='input'/>
    const checkBox = <input type='checkbox'  onChange={handeleCheck} id='check'/>
+   
+
+
   
 
  
@@ -131,6 +134,7 @@ disabled()
 
        
      }, 100);
+    
 
      
 
@@ -164,6 +168,8 @@ disabled()
 
 
   }, [todos.slice(1)]);
+
+  
 
 
 
@@ -214,6 +220,9 @@ disabled()
 
     
   }, [todos]);
+
+
+
 
 
 

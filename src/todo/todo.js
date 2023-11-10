@@ -2,12 +2,8 @@
 import {memo} from 'react'
 
 
-
-
-
-
 function Todo({todos, addTodo, removeTodo, inputdome, removeAll, checkBox , count }) {
-    console.log("child render")
+    
 
     return(
 
@@ -46,6 +42,7 @@ function Todo({todos, addTodo, removeTodo, inputdome, removeAll, checkBox , coun
 
     )
 }
+
 
 
 
